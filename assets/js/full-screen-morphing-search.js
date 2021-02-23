@@ -21,7 +21,7 @@ for (const searchInput of searchInputs) {
 		// Focus on the Full Screen Morphing Search Input Field.
 		setTimeout(function () {
 			morphSearchInputField.focus();
-		}, 500);
+		}, 200);
 	});
 }
 
@@ -49,4 +49,3 @@ let fsmspBackgrounds = document.querySelectorAll('#morphsearch, div.morphsearch-
 	fsmspColumns = document.querySelectorAll('div.dummy-media-object'),
 	fsmspLinks = document.querySelectorAll('div.dummy-media-object h3 a');
 
-// Output default options' values !
